@@ -3,9 +3,9 @@ Cyborg Yeast
 
 In the Nature Biotechnology publication 'In silico feedback for in vivo regulation of a gene expression circuit' (<a href="http://www.nature.com/nbt/journal/v29/n12/full/nbt.2018.html" target="_blank">here</a>, <a href="http://www.bbc.com/news/science-environment-15598887" target="_blank">here</a>, and <a href="http://control.ee.ethz.ch/index.cgi?page=publications&action=details&id=3903" target="_blank">here</a>), we showed that difficulties in regulating cellular behavior with synthetic biological circuits may be circumvented using in silico feedback control (i.e. an algorithm run on a computer). By tracking a circuit's output in Saccharomyces cerevisiae in real time, we precisely controlled its behavior using an in silico feedback algorithm to compute regulatory inputs implemented through a genetically encoded light-responsive module.
 
-This repository contains all software used to create the mathematical model of the genetic process (i.e. the evolution of average mRNA and protein within the cell culture as a function of the light sequence applied to the cell culture), simulate the evolution of the genetic process over multiple hours, and apply feedback control algorithms to the genetic process in order to steer the average protein abundance to a desired set point.
+This repository contains all (Matlab) software used to create the mathematical model of the genetic process (i.e. the evolution of average mRNA and protein within the cell culture as a function of the light sequence applied to the cell culture), simulate the evolution of the genetic process over multiple hours, and apply feedback control algorithms to the genetic process in order to steer the average protein abundance to a desired set point.
 
-The details of the mathematical model of the genetic process, the paramter fitting technique, and the real time closed-loop implementation are outlined in the <a href="http://www.nature.com/nbt/journal/v29/n12/extref/nbt.2018_S1.pdf" target="_blank">supplementary text</a>.
+The details of the mathematical model of the genetic process, the parameter fitting technique, and the real time closed-loop implementation are outlined in the <a href="http://www.nature.com/nbt/journal/v29/n12/extref/nbt.2018_S1.pdf" target="_blank">supplementary text</a>.
 
 Parameter Fitting
 ==================
